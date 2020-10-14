@@ -1,0 +1,17 @@
+.list-style{
+  list-style: none;
+}
+img {
+  width: 30%;
+}
+.foodpic{
+  padding-left: 5px;
+}
+.menu{
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.menu > li {
+margin-left: 2px;
+}

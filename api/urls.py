@@ -1,8 +1,8 @@
-from django.urls import path
+from django.urls import path, include
 
-from .views import menuitemListAPIView
+app_name = 'api_v1'
 
 
 urlpatterns = [
-    path('', menuitemListAPIView.as_view(), name='menuitems'),
+    path('menuitems/', include('menuitems.urls', namespace = 'menuitems')),
 ]

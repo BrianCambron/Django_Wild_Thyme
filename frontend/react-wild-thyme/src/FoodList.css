@@ -1,0 +1,15 @@
+
+.logo{
+  width: 6%;
+  border-radius: 4px;
+  margin-left: 20px;
+}
+.Order-heading{
+  color: #F14137;
+}
+.Menu-heading{
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}

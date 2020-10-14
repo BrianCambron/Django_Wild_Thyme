@@ -1,7 +1,7 @@
 from rest_framework import serializers
 
 
-from menuitems.models import menuitem
+from .models import menuitem
 
 
 
@@ -9,4 +9,4 @@ from menuitems.models import menuitem
 class menuitemSerializer(serializers.ModelSerializer):
     class Meta:
         model = menuitem
-        fields = ('id', 'name', 'description', 'price')
+        fields = ('id', 'name', 'description', 'price', 'url')
